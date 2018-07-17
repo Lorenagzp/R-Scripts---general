@@ -1,0 +1,12 @@
+prelogic block
+
+def toNum(inValue):
+   try:
+      outValue = float(inValue)
+      return outValue
+   except:
+      doNothing = 4
+	  
+
+field=	  
+	  toNum(!Name!.split(u'/')[2])

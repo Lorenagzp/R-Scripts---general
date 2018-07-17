@@ -1,0 +1,9 @@
+import arcpy
+import os
+import os.path
+from arcpy import env
+
+lyr = arcpy.GetParameterAsText(0)
+mxd = arcpy.mapping.MapDocument("CURRENT")
+dataframe = arcpy.mapping.ListDataFrames(mxd)[0]
+arcpy.mapping.AddLayer(dataframe,lyr,"AUTO_ARRANGE")
