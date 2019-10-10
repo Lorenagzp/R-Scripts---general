@@ -1,3 +1,0 @@
-=INDEX(MyData,1+INT((ROW(A1)-1)/COLUMNS(MyData)),MOD(ROW(A1)-1+COLUMNS(MyData),COLUMNS(MyData))+1)
-
-the table name here is MyData

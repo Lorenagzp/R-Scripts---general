@@ -1,2 +1,0 @@
-ENVI EXPRESSIONS
-float(float(float(B6)-float(B1))/(float(float(B6)+float(B1))))
